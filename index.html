@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+  
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <img class="header__img" src="assets/images/logo.svg" alt="">
+    <img class="header__open" src="assets/images/icon-menu.svg" alt="">
+    <nav class="header__nav">
+      <img class="header__close" src="assets/images/icon-menu-close.svg" alt="">
+      <a href="#" class="header__link">Home</a>
+      <a href="#" class="header__link">New</a>
+      <a href="#" class="header__link">Popular</a>
+      <a href="#" class="header__link">Trending</a>
+      <a href="#" class="header__link">Categories</a>
+    </nav>
+    <nav class="header__desktop-nav">
+      <a href="#" class="header__link">Home</a>
+      <a href="#" class="header__link">New</a>
+      <a href="#" class="header__link">Popular</a>
+      <a href="#" class="header__link">Trending</a>
+      <a href="#" class="header__link">Categories</a>
+    </nav>
+  </header>
+
+    <main class="main">
+      <div class="introduction">
+        <picture class="introduction__img">
+          <source media= "(max-width: 1199px)" srcset= "assets/images/image-web-3-mobile.jpg" >
+          <source media= "(min-width: 1200px)" srcset= "assets/images/image-web-3-desktop.jpg" >
+          <img src="assets/images/image-web-3-mobile.jpg" alt="">
+        </picture>
+        <h1 class="introduction__title">The Bright Future of Web 3.0?</h1>
+        <div class="introduction-in-wrapper">
+          <p class="introduction__description">
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+            But is it really fulfilling its promise?
+          </p>
+          <a class="introduction__btn" href="#">Read more</a>
+        </div>
+      </div>
+      <div class="new-news">
+        <h2 class="new-news__title">New</h2>
+        <div class="new-news__article">
+          <h3><a class="new-news__article-title" href="#">Hydrogen VS Electric Cars</a></h3>
+          <p class="new-news__article-text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="new-news__article">
+          <h3><a class="new-news__article-title" href="#">The Downsides of AI Artistry</a></h3>
+          <p class="new-news__article-text">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="new-news__article new-news__article--no-border">
+          <h3><a class="new-news__article-title" href="#">Is VC Funding Drying Up?</a></h3>
+          <p class="new-news__article-text ">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+      
+        <div class="top-three-wrapper">
+      <div class="top-three">
+        <img class="top-three__img" src="assets/images/image-retro-pcs.jpg" alt="An old computer.">
+        <div class="top-three__placement">01</div>
+        <h2><a class="top-three__title" href="#">Reviving Retro PCs</a></h2>
+        <p class="top-three__text">What happens when old PCs are given modern upgrades?</p>
+      </div>
+      <div class="top-three">
+        <img class="top-three__img" src="assets/images/image-top-laptops.jpg" alt="Close up of a laptop's keyboard.">
+        <div class="top-three__placement">02</div>
+        <h2><a class="top-three__title" href="#">Top 10 Laptops of 2022</a></h2>
+        <p class="top-three__text">Our best picks for various needs and budgets.</p>
+      </div>
+      <div class="top-three">
+        <img class="top-three__img" src="assets/images/image-gaming-growth.jpg" alt="PS4 controller.">
+        <div class="top-three__placement">03</div>
+        <h2><a class="top-three__title" href="#">The Growth of Gaming</a></h2>
+        <p class="top-three__text">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+        </div>
+
+      <div class="overlay"></div>
+    </main>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/Decimo-10">Decimo-10</a>.
+    </div>
+  </footer>
+</body>
+</html>
