@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://decimo-10.github.io/News-homepage/)
+- Live Site URL: [News homepage](https://decimo-10.github.io/News-homepage/)
 
 ## My process
 
